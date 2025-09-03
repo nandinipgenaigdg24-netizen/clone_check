@@ -8,4 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  // 👇 Add this line for GitHub Pages
+  base: '/clone_check/',
 })
